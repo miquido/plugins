@@ -22,9 +22,12 @@ dependencies:
     sdk: flutter
   flutter_web_plugins:
     sdk: flutter
-  google_identity_services_web: ^0.2.0
-  google_sign_in_platform_interface: ^2.2.0
-  http: ^0.13.5
+  # google_sign_in_platform_interface: ^2.10.0
+  google_sign_in_platform_interface:
+    git:
+      url: https://github.com/miquido/plugins
+      path: packages/google_sign_in/google_sign_in_platform_interface
+      ref: google_sign_in_macos
   js: ^0.6.3
 
 dev_dependencies:

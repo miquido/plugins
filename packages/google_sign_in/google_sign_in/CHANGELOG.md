@@ -37,6 +37,7 @@ For every platform other than `web`, this version should be identical to `5.4.4`
 ## 5.3.3
 
 * Updates references to the obsolete master branch.
+* Adds `google_sign_in_macos` package.
 
 ## 5.3.2
 
